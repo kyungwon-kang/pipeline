@@ -27,6 +27,19 @@ pipeline {
         stage('333') {
           steps {
             sh 'echo 333'
+            sleep 3
+          }
+        }
+
+        stage('555') {
+          steps {
+            sleep 3
+          }
+        }
+
+        stage('666') {
+          steps {
+            sleep 3
           }
         }
 
