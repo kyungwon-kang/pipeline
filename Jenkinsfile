@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('111') {
+      steps {
+        sh 'echo aaa'
+      }
+    }
+
   }
 }
